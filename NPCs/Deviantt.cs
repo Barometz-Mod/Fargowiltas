@@ -66,7 +66,7 @@ namespace Fargowiltas.NPCs
 
         public override string TownNPCName()
         {
-            string[] names = { "Akira", "Remi", "Bloom", "Yuuki", "Seira", "Koi", "Elly", "Lori", "Calius", "Teri" };
+            string[] names = { "Akira", "Remi", "Bloom", "Yuuki", "Seira", "Koi", "Elly", "Lori", "Calius", "Teri", "Art" };
             return Main.rand.Next(names);
         }
 
